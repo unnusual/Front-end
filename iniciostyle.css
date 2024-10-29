@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #6b4f4f;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #5aa6c9;
+}
+
+.login-button {
+    background-color: #5aa6c9;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    background-color: #4c94b4;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #eaf3f8;
+    position: relative;
+}
+
+.hero-section h1 {
+    font-size: 28px;
+    color: #6b4f4f;
+}
+
+.highlight {
+    color: #5aa6c9;
+    font-weight: bold;
+}
+
+.illustration {
+    margin-top: 20px;
+}
+
+.illustration img {
+    width: 80%;
+    max-width: 500px;
+}
+
+.info-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.info-section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.info-section p {
+    color: #666;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
