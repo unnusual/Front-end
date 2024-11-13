@@ -23,30 +23,34 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 100px;
 }
 
-.left-panel .logoleft {
+.left-panel {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Alinea el contenido dentro de logoleft a la izquierda */
-  position: absolute;
-  top: 20px; /* Ajusta la distancia desde la parte superior */
-  left: 20px; /* Ajusta la distancia desde la parte izquierda */
-  color: white;
+  flex-direction: column; /* Coloca los elementos en columna */
+  align-items: flex-start; /* Alinea todo a la izquierda */
+  justify-content: flex-start; /* Mantiene todo en la parte superior */
+  width: 50%; /* Ajusta el ancho según sea necesario */
+  padding: 20px; /* Agrega un poco de espacio interno */
 }
 
-.left-panel .logoleft img {
-  width: 60px;
+.logoleft {
+  display: flex;
+  align-items: center; /* Alinea verticalmente el logo y el texto */
+  margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+}
+
+.logoleft img {
+  width: 35px; /* Ajusta el tamaño del logo */
   height: auto;
-  margin-bottom: 10px;
+  margin-right: 0px; /* Espacio entre el logo y el texto */
 }
 
-.left-panel .logoleft h1 {
-  font-size: 24px;
-  font-weight: bold;
-  color: white;
-
+.logoleft h1 {
+  font-size: 30px; /* Ajusta el tamaño del texto */
+  color: #ffffff; /* Cambia el color según tu paleta de colores */
+  margin: 0; /* Elimina el margen por defecto */
 }
 
 .right-panel {
@@ -60,16 +64,16 @@ body {
 }
 
 .illustration {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
 }
 
 .logo img {
-  width: 50px;
+  width: 120px;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 38px;
   color: #333;
   margin-bottom: 20px;
 }
