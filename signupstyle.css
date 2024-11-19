@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-panel {
+    flex: 1;
+    background-color: #83BDCB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+  }
+  
+  .left-panel {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: flex-start; /* Alinea todo a la izquierda */
+    justify-content: flex-start; /* Mantiene todo en la parte superior */
+    width: 50%; /* Ajusta el ancho según sea necesario */
+    padding: 20px; /* Agrega un poco de espacio interno */
+  }
+  
+  .logoleft {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el logo y el texto */
+    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+  }
+  
+  .logoleft img {
+    width: 35px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-right: 0px; /* Espacio entre el logo y el texto */
+  }
+  
+  .logoleft h1 {
+    font-size: 30px; /* Ajusta el tamaño del texto */
+    color: #ffffff; /* Cambia el color según tu paleta de colores */
+    margin: 0; /* Elimina el margen por defecto */
+  }
+  
+  .right-panel {
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .illustration {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .logo img {
+    width: 120px;
+  }
+  
+  h1 {
+    font-size: 38px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .brand-name {
+    color: #7fc3d9;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  input::placeholder {
+    color: #aaa;
+  }
+  
+  .login-btn {
+    background-color: #7fc3d9;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-btn:hover {
+    background-color: #6bb3c4;
+  }
+  
+  .signup-link {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .signup-link a {
+    color: #7fc3d9;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .footer a {
+    color: #7fc3d9;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
