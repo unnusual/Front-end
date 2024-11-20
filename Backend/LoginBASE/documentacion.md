@@ -1,6 +1,6 @@
 <?php
 include("conexion.php");
-//registrar usuario
+
 if (isset($_POST["registrar"])) {
     $nombre = mysqli_real_escape_string($conexion, $_POST['nombre']);
     $correo = mysqli_real_escape_string($conexion, $_POST['correo']);
@@ -8,7 +8,6 @@ if (isset($_POST["registrar"])) {
     $password = mysqli_real_escape_string($conexion, $_POST['pass']);
     $password_encriptada = sha1($password);
     
-    // Comprobar si el usuario ya existe
     $sqluser = "SELECT idusuario FROM usuarios WHERE usuario = '$usuario'";
     $resultadouser = $conexion->query($sqluser);
     $filas = $resultadouser->num_rows;
@@ -19,7 +18,7 @@ if (isset($_POST["registrar"])) {
                 window.location = 'index.php';
         </script>";
     } else {
-        // Insertar información del usuario
+ 
         $sqlusuario = "INSERT INTO usuarios (Nombre, Correo, Usuario, Password)
                        VALUES ('$nombre', '$correo', '$usuario', '$password_encriptada')";
         $resultadousuario = $conexion->query($sqlusuario);
